@@ -1,0 +1,70 @@
+
+div.movie-card{
+    padding: 0 0 16px 0;
+    width: 200px;
+    min-width: 200px;
+    position: relative;
+    background: #1b1b1b;
+}
+
+a{
+    color: aliceblue;
+    text-transform: capitalize;
+    font-size: large;
+    cursor: pointer;
+}
+
+.img-fluid{
+    height: 300px;
+}
+
+.img-block{
+    position: relative;
+}
+
+
+h2{
+    margin-block-end: 0em;
+}
+
+.movie_title{
+    height: 2.5rem;
+}
+
+.item {
+    width: auto;
+    height: auto;
+    margin: 10px auto;
+    border: 1px solid #eaeaea;
+    padding: 10px;
+  }
+
+button{
+    margin: 15px auto 0 auto;
+    outline: none;
+
+    &:hover{
+        background-color: #3d3d3d;
+        transition: all ease-in 200ms;
+        -webkit-transition: all ease-in 200ms;
+        -moz-transition: all ease-in 200ms;
+        -ms-transition: all ease-in 200ms;
+        -o-transition: all ease-in 200ms;
+    }
+}
+
+.watchlist-btn{
+    background-color: #2d2d2d;
+    width: 100%;
+    color: #5799ef;
+}
+
+.trailer-btn{
+
+}
+
+span.mat-button-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
