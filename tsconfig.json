@@ -4,6 +4,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+    "esModuleInterop":true,
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
@@ -15,6 +16,9 @@
     "lib": [
       "es2018",
       "dom"
+    ],
+    "types": [
+      "jest"
     ],
     "plugins": [{"name": "@angular/language-service"}]
   }
